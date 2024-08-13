@@ -1,0 +1,26 @@
+
+一、Ubuntu 14.04環境
+1. 在檔案/lib/udev/rules.d/69-libmtp.rules 添加以下内容:
+
+# MTP+ADB
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="0c02", SYMLINK+="libmtp-%k",
+MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+
+# MTP
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="2008", SYMLINK+="libmtp-%k",
+MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+
+# MTP+ADB+ACM
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="200A", SYMLINK+="libmtp-%k",
+MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+
+# MTP+ACM
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="2012", SYMLINK+="libmtp-%k",
+MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+
+
+二、Windows XP環境
+　　需安装Windows Media Player 11
+　　
+三、Windows 7環境
+　　可以直接使用

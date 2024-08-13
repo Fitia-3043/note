@@ -1,0 +1,36 @@
+
+一、Ubuntu环境
+1.  建立或修改檔案 ~/.android/adb_usb.ini，在檔案起始或最後添加一行文本，内容是0x2a45。
+
+2.  建立或修改檔案 /etc/udev/rules.d/51-android.rules
+2.1 修改檔案權限：
+    sudo chmod a+rx /etc/udev/rules.d/51-android.rules
+
+2.2 在檔案中添加一行内容：
+    SUBSYSTEM=="usb", ATTR{idVendor}=="2a45", MODE="0666", GROUP="plugdev"
+
+4.  確保你在用户组"plugdev"
+    sudo adduser plugdev
+
+5.  按下面流程重啟udev服務或直接重啟PC
+    sudo service udev restart
+
+6.  檢查ADB設備是否存在
+    adb kill-server
+    adb devices
+
+二、Windows XP中文环境
+1.  建立或修改C:\Documents and Settings\<你的用户名>\.android\adb_usb.ini檔案，在該檔案中添加一行文本，内容是0x2a45。
+
+2.  檢查ADB設備是否找到（命令行程序中）
+    adb kill-server
+    adb devices
+　　
+三、Windows 7中文环境
+1.  建立或修改C:\用户\<你的用户名>\.android\adb_usb.ini文件，在該檔案中添加一行文本，内容是0x2a45。
+
+2.  检查ADB设备是否找到（命令行程序中）
+    adb kill-server
+    adb devices
+
+参考檔案： http://developer.android.com/tools/device.html

@@ -1,0 +1,28 @@
+Alphabet      Morse |       Code divers
+--------------------|----------------------------------
+A             .-    |Debut d'emission       -.-.-
+B             -...  |Erreur                 ..........
+C             -.-.  |Repetez apres          ..--..
+D             -..   |Compris                ...-.-
+E             .     |Transmettez            -.--
+F             ..-.  |Attendez               .-...-
+G             --.   |Recu                   .-.
+H	      ....  |Fin de transmition     ...-.-
+I             ..    |
+J	      .---  |
+K	      -.-   |
+L	      .-..  |
+M	      --    |
+N	      -.    |
+O	      ---   |
+P	      .--.  |
+Q	      --.-  |
+R	      .-.   |
+S	      ...   |
+T	      -     |
+U	      ..-   |
+V	      ...-  |
+W	      .--   |
+X	      -..-  | 
+Y	      -.--  |
+Z	      --..  |

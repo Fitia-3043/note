@@ -1,0 +1,49 @@
+			Routeur
+			_______
+Nom				MAC	
+---------------------------------------
+ALAOY				64:D1:54:DD:5D:81
+Annah				14:9D:09:51:00:F9
+boxbytelma			64:D1:54:DD:A8:F9
+DIRECT-2g-2G-VEVDTk9LRzVq	EE:A3:30:E5:C6:85
+ES_9876				90:C1:15:AE:BC:47
+I am				02:08:22:D2:0E:5A
+MW45V_67D6			C8:2A:F1:00:67:D6
+NOMENA				2C:C8:1B:89:2F:F9
+Raun				DC:2C:6E:74:C4:CD
+Redmi Note 12			CE:ED:3A:1E:CA:64
+S10_Blueline			D8:D8:66:29:BA:11
+	
+<length:  0>			DC:2C:6E:74:C4:CD
+
+##################################################################################################################
+
+			Appareil
+			________
+Utilisateur			MAC Wifi		MAC trouvee		Appareil utilisee
+------------------------------------------------------------------------------
+Felana				14:99:3E:BF:D6:D4	E2:E4:36:FB:0D:8C	Redmi Note 12
+Fitia				00:08:22:B6:0C:D8	00:08:22:7E:C1:55	Meizu
+Fi-omega						5C:77:76:2B:F9:FA	Telma (Tablette)	
+Finaritra						38:AA:3C:D4:8E:60	Samsung
+
+I am 	(Util)						76:74:F3:E1:41:9A
+ES_9876 (Util)						48:88:CA:48:AD:0A
+ALAOY	(Util)						B8:3A:08:43:31:69
+
+Probes (DIRECT-Xa-TECNO BE6)				56:C6:60:F6:42:CB
+Probes (DIRECT-Xa-TECNO BE6)				26:11:60:0F:6F:B4
+Probes (DIRECT-Xa-TECNO BE6)				AE:DA:43:42:A4:86
+Probes (DIRECT-Xa-TECNO BE6)				CE:98:32:D1:A8:5F
+Probes (DIRECT-Xa-TECNO BE6)				F6:C9:B1:15:93:E2
+Probes (DIRECT-Xa-TECNO BE6)				8A:B9:01:34:38:F3
+Probes (DIRECT-Xa-TECNO BE6)				BA:3D:00:25:DD:C0
+Probes (DIRECT-Xa-TECNO BE6)				86:B0:66:27:0F:0E
+
+Probes (51500000)					6A:D2:A1:FE:0B:C1 
+Probes (51500000)					AE:DA:43:42:A4:86
+Probes (51500000)					F6:C9:B1:15:93:E2
+Probes (51500000)					8A:B9:01:34:38:F3
+Probes (51500000)					BA:3D:00:25:DD:C0
+Probes (51500000)					86:B0:66:27:0F:0E
+							

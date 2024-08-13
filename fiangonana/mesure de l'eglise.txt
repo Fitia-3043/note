@@ -1,0 +1,25 @@
+[autorun]
+fiangonana{
+	150deg;
+	rindrina: 500cm; 15cm;
+	||: 52cm; 1,56cm;
+	||<-1-2-3-4-5-6-7->||: 310cm; 9,3cm;
+	||<-8->||: 410cm; 12,3cm;
+	f<->f: 2 638cm; 79,14;
+}
+tilikambo{
+	appuis(width): 130cm; 3,9cm;
+	appuis(height): 162cm; 4,86cm;
+	grand_pieds-center: 60cm; 1,8cm;
+	grand_pieds-left, pieds-right: 162cm; 4,86cm;
+	petit_pieds(height): 20cm; 0,6cm;
+	vitre: 6piece;
+	vitre-height: 500cm; 15cm;
+	<?php 
+		if(vitre-height == 250cm; 7,5cm;){
+			echo "<hr>";
+		}
+	?>
+	padding-vitre: 35cm; 1,05cm;
+}
+

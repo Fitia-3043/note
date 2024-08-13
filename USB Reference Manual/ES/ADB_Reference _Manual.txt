@@ -1,0 +1,36 @@
+﻿
+1 Entorno Ubuntu
+1. Cree o modifique el archivo ~/.android/adb_usb.ini. Añada una línea (con el contenido "0x2a45") al principio o al final del archivo.
+
+2. Cree o modifique el archivo /etc/udev/rules.d/51-android.rules.
+2.1 Modifique los permisos sobre el archivo:
+    sudo chmod a+rx /etc/udev/rules.d/51-android.rules
+
+2.2 Añada una línea (con el contenido siguiente) al archivo:
+    SUBSYSTEM=="usb", ATTR{idVendor}=="2a45", MODE="0666", GROUP="plugdev"
+
+4. Asegúrese de estar en el grupo de usuarios "plugdev".
+    sudo adduser plugdev
+
+5. Reinicie el servicio udev conforme al procedimiento siguiente, o reinicie directamente el PC.
+    sudo service udev restart
+
+6. Compruebe si existe el dispositivo ADB.
+    adb kill-server
+    adb devices
+
+2 Entorno Windows XP
+1. Cree o modifique el archivo C:\Documents and Settings\<Su nombre de usuario>\.android\adb_usb.ini. Añada una línea (con el contenido "0x2a45") al archivo.
+
+2. Compruebe si existe el dispositivo adb (en el programa de línea de comandos).
+    adb kill-server
+    adb devices
+　　
+3 Entorno Windows 7
+1. Cree o modifique el archivo C:\User\<Su nombre de usuario>\.android\adb_usb.ini. Añada una línea (con el contenido "0x2a45") al archivo.
+
+2. Compruebe si existe el dispositivo adb (en el programa de línea de comandos).
+    adb kill-server
+    adb devices
+
+Referencias: http://developer.android.com/tools/device.html

@@ -1,0 +1,26 @@
+﻿
+1 Ambiente Ubuntu 14.04
+1. Adicione o seguinte conteúdo ao arquivo /lib/udev/rules.d/69-libmtp.rules:
+
+# MTP+ADB
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="0c02", SYMLINK+="libmtp-%k",
+MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+
+# MTP
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="2008", SYMLINK+="libmtp-%k",
+MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+
+# MTP+ADB+ACM
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="200A", SYMLINK+="libmtp-%k",
+MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+
+# MTP+ACM
+ATTR{idVendor}=="2a45", ATTR{idProduct}=="2012", SYMLINK+="libmtp-%k",
+MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+
+
+2 Ambiente Windows XP
+　　É preciso instalar o Windows Media Player 11.
+　　
+3 Ambiente Windows 7
+　　Você pode usá-lo diretamente.

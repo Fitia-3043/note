@@ -1,0 +1,18 @@
+
+Logiciel Linux
+	Oui, il existe plusieurs logiciels sous Linux qui peuvent contrôler les SDR (Software Defined Radio). Voici quelques-uns des logiciels populaires :
+
+    Gqrx : C'est un récepteur SDR open source pour les plates-formes Unix comme Linux et macOS. Il prend en charge de nombreux SDR matériels populaires comme les périphériques basés sur RTL-SDR, HackRF, et USRP.
+
+    CubicSDR : Un autre logiciel SDR multiplateforme qui fonctionne bien sous Linux. Il prend également en charge une variété de matériels SDR, y compris RTL-SDR, HackRF, et d'autres.
+
+    SDRangel : C'est un logiciel SDR complet qui peut être utilisé pour la réception et la transmission sur une variété de matériel SDR. Il est conçu pour fonctionner sur Linux et supporte de nombreux périphériques SDR.
+
+    GnuRadio : Il s'agit d'un outil de développement de systèmes radio logiciels (SDR) qui offre une flexibilité maximale pour concevoir et tester des systèmes de traitement de signal. Bien que plus orienté vers le développement d'applications personnalisées, il est largement utilisé avec des périphériques SDR sous Linux.
+
+    SoapySDR : Une bibliothèque qui permet l'utilisation d'une variété de périphériques SDR avec des logiciels SDR tiers comme Gqrx, CubicSDR, etc. Elle est souvent utilisée comme couche d'abstraction entre le matériel SDR et les applications logicielles.
+
+Ces logiciels sont généralement disponibles dans les dépôts logiciels de nombreuses distributions Linux populaires comme Ubuntu, Debian, Fedora, etc. Ils offrent une gamme de fonctionnalités allant de la simple réception radio à des applications plus avancées telles que la démodulation et la décodage de signaux numériques.
+
+
+

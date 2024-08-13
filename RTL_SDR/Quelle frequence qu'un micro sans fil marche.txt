@@ -1,0 +1,7 @@
+La fréquence utilisée pour qu'un micro sans fil fonctionne dépend généralement du type de micro sans fil et des régulations locales concernant l'utilisation des fréquences radio. En général, les micros sans fil opèrent dans les bandes de fréquences UHF (Ultra Haute Fréquence) ou VHF (Très Haute Fréquence).
+
+Aux États-Unis et dans de nombreux autres pays, les fréquences UHF sont souvent préférées pour les micros sans fil en raison de leur meilleure stabilité et de leur capacité à supporter un plus grand nombre de canaux sans interférence. Les fréquences UHF typiques utilisées pour les micros sans fil varient généralement de 470 MHz à 698 MHz.
+
+En Europe et dans d'autres régions du monde, les fréquences VHF sont parfois utilisées pour les micros sans fil, bien que les UHF soient également courantes.
+
+Il est important de noter que les régulations gouvernementales et les normes locales varient, donc il est essentiel de vérifier quelles fréquences sont légales et disponibles dans votre région pour l'utilisation des micros sans fil afin d'éviter les interférences et de respecter la loi.

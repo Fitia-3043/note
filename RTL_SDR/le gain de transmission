@@ -1,0 +1,17 @@
+Le "gain de transmission" est une mesure de l'amplification du signal lorsqu'il est transmis d'un appareil à un autre, généralement d'un émetteur vers un récepteur dans le contexte des communications radio ou des systèmes de transmission.
+Explication détaillée :
+
+    Amplification du signal : Le gain de transmission indique à quel point le signal est amplifié ou atténué lorsqu'il est transmis d'un point à un autre. Il est souvent mesuré en décibels (dB) et peut être positif (gain) ou négatif (perte).
+
+    Utilisation dans les systèmes de communication :
+        Émetteur : Lorsque le signal est transmis depuis un émetteur, le gain de transmission mesure l'amplification du signal avant qu'il ne soit envoyé dans l'environnement de transmission (par exemple, à travers une antenne).
+        Récepteur : Du côté du récepteur, le gain de transmission mesure l'amplification du signal une fois qu'il a été reçu, afin de le rendre plus lisible et utilisable pour le système de réception.
+
+    Facteurs influençant le gain de transmission :
+        Antennes : La conception et l'efficacité des antennes peuvent influencer le gain de transmission.
+        Câbles et connecteurs : La qualité des câbles et des connecteurs utilisés dans le système de transmission peut affecter le gain.
+        Réglages électroniques : Dans les systèmes numériques et analogiques, les réglages électroniques tels que les paramètres de modulation et d'amplification jouent un rôle dans le gain de transmission.
+
+    Importance dans la conception des systèmes : Le gain de transmission est crucial pour optimiser la portée et la qualité des communications sans fil. Un gain trop faible peut limiter la portée ou la qualité du signal, tandis qu'un gain excessif peut provoquer des interférences ou une surcharge du récepteur.
+
+En résumé, le gain de transmission mesure l'amplification (ou la perte) du signal lors de sa transmission d'un point à un autre dans un système de communication, jouant un rôle essentiel dans la performance et la fiabilité des communications radio et sans fil.
